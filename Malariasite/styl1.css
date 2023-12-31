@@ -1,0 +1,41 @@
+h1{
+   font-family: 'Courier New', Courier, monospace;
+   color: blue;
+}
+
+.important {
+    color: red;
+}
+#somesuch {
+    color: blue;
+}
+span.important {
+    color: aqua;
+}
+h1 h2 h3 p.impotrant {
+    margin-left: 20px;
+}
+
+a link{
+    text-decoration: none;
+    color: red;
+}
+
+p:first-letter {
+    font-size: 2em;
+}
+
+article:before {
+    content: @@@@@;
+}
+p:first-of-type {
+margin: 15px;
+}
+
+li :first-child {
+    font-style: italic;
+}
+
+li:last-child {
+    font-weight: none;
+}
